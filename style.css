@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(45deg, red, rgb(201, 75, 149));        
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 500px;
+    padding-bottom: 110px;
+}
+
+
+#container{
+    width: 250px;
+    height: 350px;
+  padding: 50px;
+  border-radius: 15px;
+  text-align: center;
+ background:  linear-gradient(45deg, red, rgb(201, 75, 149));
+ /* background-color: #f19d9d;*/
+border: none;
+}
+
+
+h2{
+    color: rgb(116, 1, 24);
+}
+
+#second-row{
+    display: flex;
+    color: rgb(116, 1, 24);
+    
+
+}
+
+#third-row{
+    display: flex;
+   
+}
+
+#remember-me{
+    margin-right: 35px;
+}
+
+#email, #password{
+    border-radius: 10px;
+    border: 1px solid rgb(204, 6, 45);
+    
+    height: 30px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+button{
+    color: white; 
+    background-color: crimson;
+cursor: pointer;
+border-radius: 10px;
+    border: 1px solid;
+    border:none;
+    height: 50px;
+    width: 150px;
+}
